@@ -1,11 +1,11 @@
 <p align="center">
-	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/ESLint_Plugin.png" width="100%" alt="Sand Box">
+    <img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/ESLint_Plugin.png" width="100%" alt="Sand Box">
 </p>
 
 <br>
 
 <p align="center">
-	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/1_Description.png" width="100%" alt="Description">
+    <img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/1_Description.png" width="100%" alt="Description">
 </p>
 
 ESLint is a static code linter for JavaScript, which means it analyzes your JavaScript code for errors, style problems and coding convention violations.
@@ -15,7 +15,7 @@ This is my ESLint plugin, which can be used to lint your JavaScript code with my
 <br>
 
 <p align="center">
-	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/2_Get_Started.png" width="100%" alt="Get Started">
+    <img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/2_Get_Started.png" width="100%" alt="Get Started">
 </p>
 
 ### Install the config:
@@ -34,10 +34,10 @@ npm install -D eslint @maxencebonamy/eslint-plugin
 ```json
 {
     "extends": [
-		"plugin:@maxencebonamy/base",
-		"plugin:@maxencebonamy/typescript",
-		"plugin:@maxencebonamy/react",
-	],
+        "plugin:@maxencebonamy/base",
+        "plugin:@maxencebonamy/typescript",
+        "plugin:@maxencebonamy/react",
+    ],
 }
 ```
 
