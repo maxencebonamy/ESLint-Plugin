@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/ESLint_Config.png" width="100%" alt="Sand Box">
+	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/ESLint_Plugin.png" width="100%" alt="Sand Box">
 </p>
 
 <br>
@@ -10,7 +10,7 @@
 
 ESLint is a static code linter for JavaScript, which means it analyzes your JavaScript code for errors, style problems and coding convention violations.
 <br>
-This is my ESLint configuration, which I use for my JavaScript and TypeScript projects.
+This is my ESLint plugin, which can be used to lint your JavaScript code with my coding style. Is can be used for not only JavaScript but also TypeScript, React, etc.
 
 <br>
 
@@ -27,13 +27,17 @@ This is my ESLint configuration, which I use for my JavaScript and TypeScript pr
 
 1. **Install** the dependency:
 ```
-npm install -D eslint @maxencebonamy/eslint-config
+npm install -D eslint @maxencebonamy/eslint-plugin
 ```
 
 2. **Paste** the following code into the `.eslintrc.json` file:
 ```json
 {
-    "extends": "@maxencebonamy"
+    "extends": [
+		"plugin:@maxencebonamy/base",
+		"plugin:@maxencebonamy/typescript",
+		"plugin:@maxencebonamy/react",
+	],
 }
 ```
 
