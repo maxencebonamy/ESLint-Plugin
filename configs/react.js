@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-undef
 module.exports = {
 	extends: [
-		"plugin:react/recommended"
+		"plugin:react/recommended" // TODO: add react hooks
 	],
 	parserOptions: {
 		ecmaFeatures: {

@@ -16,7 +16,7 @@ module.exports = {
 		// spacing
 		"@stylistic/type-generic-spacing": [ "warn" ],
 		"@stylistic/type-named-tuple-spacing": [ "warn" ],
-		"@stylistic/type-annotation-spacing": [ "warn", { before: false, after: true } ],
+		"@stylistic/type-annotation-spacing": [ "warn", { before: false, after: true, overrides: { arrow: { before: true, after: true } } } ],
 
 		// misc
 		"@stylistic/member-delimiter-style": [ "warn", {
